@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #aaa;
+  margin: 0;
+}
+
+.traffic-light {
+  width: 200px;
+  height: 600px;
+  background-color: #333;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.traffic-light div {
+  width: 150px;
+  height: 150px;
+  background-color: #444;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  margin: auto;
+}
+
+.red {
+  background-color: red !important;
+  box-shadow: 0 0 50px red;
+}
+
+.yellow {
+  background-color: yellow !important;
+  box-shadow: 0 0 50px yellow;
+}
+
+.green {
+  background-color: #1efd0c !important;
+  box-shadow: 0 0 50px #1efd0c;
+}
+
+.off {
+  background-color: #444 !important;
+  box-shadow: none;
+}
