@@ -9,7 +9,7 @@ body {
 
 .traffic-light {
   width: 200px;
-  height: 600px;
+  height: 500px;
   background-color: #333;
   border-radius: 20px;
   display: flex;
